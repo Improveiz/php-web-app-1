@@ -1,6 +1,11 @@
  <?php
 if(isset($_GET['firstName'])){//data exist, how it
-  echo $_GET['firstName'] . ' ' . $_GET['lastName'];
+  //echo $_GET['firstName'] . ' ' . $_GET['lastName'];
+
+echo '<pre>';
+var_dump($_GET);
+echo '</pre>';
+
 }
 else{//no data, show form
     echo '
