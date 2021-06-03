@@ -6,7 +6,7 @@ else{//no data, show form
     echo '
     <form action="">
     First Name: <input type="text" name="firstName"/><br/>
-    Last Name: <input type="text" name="LastName"/><br/>
+    Last Name: <input type="text" name="lastName"/><br/>
     <input type="submit"/>
     </form>
     ';
